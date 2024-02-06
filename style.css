@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(245,202,225,1) 72%, rgba(255,255,255,1) 100%);
+    position: relative;
+}
+
+#page1 h1{
+    font-size: 7vh;
+    font-family: 'Thasadith', sans-serif;
+    color: #f54769;
+    position: absolute;
+    top: .5rem;
+    left: 35%;
+    border-bottom: 3px solid rgb(203, 138, 138);
+}
+
+#page1 p{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 55%;
+    left: 54%;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    
+    font-size: 2.5vh;
+    word-spacing: 3px;
+}
+
+#first, #third, #fifth{
+    font-family: 'Single Day', cursive;;
+}
+
+#sec{
+    font-family: 'Thasadith', sans-serif;;
+    font-style: italic;
+    font-size: 2.2vh;
+    
+}
+
+#forth, #six{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
